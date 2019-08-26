@@ -75,6 +75,6 @@ app.use("/campgrounds/:id/comments",commentRoutes);
 
 
 
-app.listen(process.env.Port||8080,process.env.IP,function(){
-	console.log("running on port 8080");
+app.listen(process.env.Port||5000,process.env.IP,function(){
+	console.log("running on port 5000");
 });
