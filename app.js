@@ -17,7 +17,7 @@ var flash=require("connect-flash");
 
 
 //mongoose.connect('mongodb://localhost/yelp_camp', {useNewUrlParser: true});
-mongoose.connect('mongodb+srv://akshit:dv6000@cluster0-sa6bd.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://akshit:dv6000@cluster0-sa6bd.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 
 app.use(bodyParser.urlencoded({extended:true}));
